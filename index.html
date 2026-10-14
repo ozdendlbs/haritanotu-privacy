@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası (Privacy Policy) | Harita Notu</title>
+    <meta name="description" content="Harita Notu (com.haritanotu.haritanotu_app) Gizlilik Politikası ve Kullanıcı Verileri Beyanı.">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface-card: #243247;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: rgba(255, 255, 255, 0.08);
+            --accent: #38bdf8;
+            --success: #10b981;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            line-height: 1.75;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 920px;
+            margin: 0 auto;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 48px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 28px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .brand-icon {
+            font-size: 38px;
+            background: rgba(37, 99, 235, 0.2);
+            padding: 10px;
+            border-radius: 16px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        .brand-title h1 {
+            font-size: 26px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .brand-title p {
+            font-size: 14px;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .meta-badges {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 6px;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 12.5px;
+            color: var(--text-muted);
+        }
+
+        .badge.app-id {
+            color: var(--accent);
+            font-family: monospace;
+            background: rgba(56, 189, 248, 0.08);
+            border-color: rgba(56, 189, 248, 0.25);
+        }
+
+        .info-card {
+            background: var(--surface-card);
+            border-left: 4px solid var(--accent);
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin: 22px 0;
+            font-size: 14.5px;
+        }
+
+        .info-card.success {
+            border-left-color: var(--success);
+            background: rgba(16, 185, 129, 0.08);
+        }
+
+        .info-card strong {
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #fff;
+            margin: 34px 0 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #e2e8f0;
+            margin: 20px 0 8px;
+        }
+
+        p, ul {
+            color: #cbd5e1;
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .en-section {
+            margin-top: 48px;
+            padding-top: 36px;
+            border-top: 2px dashed rgba(255, 255, 255, 0.12);
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13.5px;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px 10px;
+            }
+            .container {
+                padding: 24px 18px;
+                border-radius: 18px;
+            }
+            .brand-title h1 {
+                font-size: 22px;
+            }
+            .meta-badges {
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="brand">
+            <div class="brand-icon">🗺️</div>
+            <div class="brand-title">
+                <h1>Harita Notu</h1>
+                <p>Gizlilik Politikası (Privacy Policy)</p>
+            </div>
+        </div>
+        <div class="meta-badges">
+            <div class="badge app-id">Paket: com.haritanotu.haritanotu_app</div>
+            <div class="badge">Son Güncelleme: 14 Ekim 2026</div>
+        </div>
+    </header>
+
+    <div class="info-card success">
+        <strong>Özet:</strong> Bu Gizlilik Politikası belgesi; <strong>Harita Notu</strong> Android mobil uygulaması (Paket Adı: <code>com.haritanotu.haritanotu_app</code>) ve ilişkili <strong>haritanotu.com.tr</strong> web platformu tarafından toplanan, işlenen, saklanan ve korunan kullanıcı verilerine ilişkin kuralları, Google Play Geliştirici Politikaları ve KVKK standartlarına uygun olarak açıklar.
+    </div>
+
+    <h2>1. Uygulama ve Geliştirici Bilgileri</h2>
+    <p>Uygulamamız KPSS, AGS, YKS ve kurum sınavlarına hazırlanan adaylar için görsel hafıza haritaları, soru bankaları ve akıllı kamu ilan takip robotu sunan bir eğitim platformudur.</p>
+    <ul>
+        <li><strong>Uygulama Adı:</strong> Harita Notu (Harita Notu: KPSS Sınav Hazırlık)</li>
+        <li><strong>Uygulama Paket Kimliği (Package ID):</strong> <code>com.haritanotu.haritanotu_app</code></li>
+        <li><strong>Geliştirici & Veri Sorumlusu:</strong> Özden Delibaş</li>
+        <li><strong>Resmi Web Sitesi:</strong> <a href="https://haritanotu.com.tr" target="_blank">https://haritanotu.com.tr</a></li>
+        <li><strong>İletişim & Gizlilik E-posta:</strong> <a href="mailto:ozdendelibas104@gmail.com">ozdendelibas104@gmail.com</a> / <a href="mailto:destek@haritanotu.com">destek@haritanotu.com</a></li>
+    </ul>
+
+    <h2>2. Toplanan Bilgiler ve Toplanma Amacı</h2>
+    <p>Uygulama yalnızca eğitim hizmetini eksiksiz sunabilmek ve hesap güvenliğini sağlayabilmek adına asgari düzeyde veri işler:</p>
+    <ul>
+        <li><strong>Hesap ve Kimlik Bilgileri:</strong> Google ile oturum açtığınızda veya e-posta ile kayıt olduğunuzda sağlanan ad-soyad, e-posta adresi ve benzersiz kullanıcı kimliği (UID).</li>
+        <li><strong>Eğitim İlerlemesi & Tercihler:</strong> Çözülen test soruları, incelenen coğrafya/tarih haritaları, tamamlanan ders modülleri, kullanıcının seçtiği KPSS mezuniyet bölümü ve KPSS puanı (Kamu İlan Robotu için).</li>
+        <li><strong>Cihaz Tanımlayıcıları & Oturum Bilgileri:</strong> Çoklu yetkisiz hesap paylaşımını engellemek ve oturum güvenliğini korumak için anonim cihaz kimliği (UUID), işletim sistemi versiyonu ve IP adresi.</li>
+        <li><strong>Bildirim Tokeni:</strong> Kullanıcı izin verdiği takdirde, yeni kamu memur alım ilanları ve çalışma hatırlatmaları göndermek amacıyla yerel bildirim servisleri kullanılır.</li>
+    </ul>
+
+    <h2>3. Üçüncü Taraf SDK'lar ve Altyapı Sağlayıcıları</h2>
+    <p>Uygulamamız aşağıdaki güvenilir, küresel endüstri standardı hizmetleri kullanmaktadır:</p>
+    <ul>
+        <li><strong>Google Firebase Authentication (Google LLC):</strong> Güvenli kullanıcı kimlik doğrulaması ve oturum yönetimi için kullanılır.</li>
+        <li><strong>Google Firebase Realtime Database & Firestore:</strong> Kullanıcı çalışma notları, soru çözümleri ve ilerleme verilerinin bulutta şifreli senkronizasyonu için kullanılır.</li>
+        <li><strong>Google Play Hizmetleri:</strong> Uygulama içi satın alımlar (In-App Purchase) ve lisans doğrulamaları için kullanılır.</li>
+    </ul>
+
+    <h2>4. Veri Güvenliği ve Şifreleme</h2>
+    <p>Kullanıcı verileri modern güvenlik standartlarıyla korunmaktadır:</p>
+    <ul>
+        <li>Tüm veri transferleri 256-bit SSL/TLS HTTPS şifrelemesi ile gerçekleştirilir.</li>
+        <li>Veriler Google Firebase'in güvenli bulut altyapısında yetkisiz erişime karşı kurallarla korunur.</li>
+        <li>Kullanıcı verileri hiçbir şart altında üçüncü şahıslara satılmaz veya ticari reklam amaçlı pazarlanmaz.</li>
+    </ul>
+
+    <h2>5. Çocukların Gizliliği (Children's Privacy)</h2>
+    <p>Harita Notu yetişkinler ve lise/üniversite düzeyindeki kamu sınavı adaylarına yönelik hazırlanmıştır. 13 yaşın altındaki çocuklardan bilerek ve isteyerek kişisel veri toplanmaz. Böyle bir durum tespit edildiğinde ilgili veriler derhal silinir.</p>
+
+    <h2>6. Hesap ve Veri Silme Politikası (Account & Data Deletion)</h2>
+    <p>Google Play Kullanıcı Verileri Politikası ve KVKK gereğince tüm kullanıcılarımız hesaplarını ve hesaplarıyla ilişkili tüm kişisel verileri kalıcı olarak sildirme hakkına sahiptir.</p>
+    <div class="info-card success">
+        <strong>Hesabınızı ve Verilerinizi Nasıl Sildirebilirsiniz?</strong>
+        <p style="margin-top: 8px;">Hesabınızı ve sunucularımızdaki tüm çalışma kayıtlarınızı, soru istatistiklerinizi ve cihaz eşleşmelerinizi silmek için:</p>
+        <ol style="padding-left: 22px; margin-top: 6px;">
+            <li>Uygulama içerisindeki <strong>Profil → Canlı Destek</strong> bölümünden "Hesabımı Silmek İstiyorum" mesajı gönderebilirsiniz, VEYA</li>
+            <li>Kayıtlı e-posta adresinizden <a href="mailto:ozdendelibas104@gmail.com">ozdendelibas104@gmail.com</a> veya <a href="mailto:destek@haritanotu.com">destek@haritanotu.com</a> adresine <strong>"Hesap ve Veri Silme Talebi"</strong> konulu bir e-posta gönderebilirsiniz.</li>
+        </ol>
+        <p style="margin-top: 8px; font-weight: 600; color: #fff;">Talebiniz incelenerek en geç 24 saat içerisinde hesabınız ve tüm verileriniz kalıcı olarak imha edilir.</p>
+    </div>
+
+    <h2>7. İletişim Bilgileri</h2>
+    <p>Gizlilik Politikası veya kişisel verilerinizle ilgili tüm sorularınız için geliştiriciyle doğrudan iletişime geçebilirsiniz:</p>
+    <ul>
+        <li><strong>Geliştirici:</strong> Özden Delibaş</li>
+        <li><strong>E-posta:</strong> <a href="mailto:ozdendelibas104@gmail.com">ozdendelibas104@gmail.com</a></li>
+        <li><strong>Destek:</strong> <a href="mailto:destek@haritanotu.com">destek@haritanotu.com</a></li>
+        <li><strong>Web:</strong> <a href="https://haritanotu.com.tr" target="_blank">https://haritanotu.com.tr</a></li>
+    </ul>
+
+    <div class="en-section">
+        <h2>English Summary / Privacy Policy for Google Play</h2>
+        <p><strong>App:</strong> Harita Notu (Package: <code>com.haritanotu.haritanotu_app</code>)</p>
+        <p><strong>Developer:</strong> Ozden Delibas (Contact: <a href="mailto:ozdendelibas104@gmail.com">ozdendelibas104@gmail.com</a>)</p>
+        <p>Harita Notu is an educational app designed for civil service exam preparation in Turkey. We collect minimal personal data including name, email address, study progress, and anonymous device IDs for authentication and security purposes via Google Firebase. We do not sell or share user data with third parties for marketing purposes. All data transmissions are encrypted using HTTPS (SSL/TLS).</p>
+        <p><strong>Data & Account Deletion:</strong> Users may request complete deletion of their account and all associated data at any time by emailing <a href="mailto:ozdendelibas104@gmail.com">ozdendelibas104@gmail.com</a> with the subject "Account Deletion Request". Requests are permanently fulfilled within 24 hours.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Harita Notu. Tüm hakları saklıdır. • <a href="https://haritanotu.com.tr">haritanotu.com.tr</a></p>
+    </footer>
+</div>
+
+</body>
+</html>
